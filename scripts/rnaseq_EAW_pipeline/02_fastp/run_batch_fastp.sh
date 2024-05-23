@@ -1,0 +1,14 @@
+#!/bin/sh
+
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_EtOH_rep1.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_EtOH_rep2.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_EtOH_rep3.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_R1881_rep1.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_R1881_rep2.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_R1881_rep3.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_E2_rep1.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_E2_rep2.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_E2_rep3.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_R1881+E2_rep1.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_R1881+E2_rep2.sh
+sbatch scripts/rnaseq_EAW_pipeline/02_fastp/batch_sh/fastp_VCap_RNA_R1881+E2_rep3.sh
