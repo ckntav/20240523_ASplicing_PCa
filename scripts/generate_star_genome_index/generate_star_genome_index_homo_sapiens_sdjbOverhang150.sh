@@ -10,8 +10,6 @@
 
 module load star/2.7.11a
 
-mkdir -p /home/chris11/projects/def-stbil30/chris11/20240523_ASplicing_PCa/input/star_genome_index/homo_sapiens_sdjbOverhang150
-
 /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/star/2.7.11a/bin/STAR \
 	--runThreadN 8 \
 	--runMode genomeGenerate \
