@@ -51,7 +51,7 @@ samtools <- "/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Comp
 # picard <- "java -jar /cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/picard/2.26.3/picard.jar"
 picard <- "java -jar /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/picard/3.1.0/picard.jar"
 # Threads - set to take advantage of multi-threading and speed things up.
-nThreads <- 8
+nThreads <- 4
 
 # Path to STAR genome indices
 HUMANIDX <- file.path(workdir, "input/star_genome_index/homo_sapiens_sdjbOverhang150")
